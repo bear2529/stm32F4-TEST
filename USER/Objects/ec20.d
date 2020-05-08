@@ -1,7 +1,7 @@
 .\objects\ec20.o: ..\SOURCE\ec20.c
 .\objects\ec20.o: ..\Middlewares\FreeRTOS\include\FreeRTOS.h
-.\objects\ec20.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\ec20.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ec20.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\ec20.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\ec20.o: ..\Middlewares\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\ec20.o: ..\SOURCE\SYSTEM\sys\sys.h
 .\objects\ec20.o: ..\SOURCE\stm32f4xx.h
@@ -39,7 +39,7 @@
 .\objects\ec20.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 .\objects\ec20.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 .\objects\ec20.o: ..\SOURCE\usart.h
-.\objects\ec20.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\ec20.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\ec20.o: ..\SOURCE\type.h
 .\objects\ec20.o: ..\Middlewares\FreeRTOS\include\projdefs.h
 .\objects\ec20.o: ..\Middlewares\FreeRTOS\include\portable.h
@@ -49,9 +49,22 @@
 .\objects\ec20.o: ..\Middlewares\FreeRTOS\include\task.h
 .\objects\ec20.o: ..\Middlewares\FreeRTOS\include\list.h
 .\objects\ec20.o: ..\SOURCE\EC20.h
-.\objects\ec20.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\ec20.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\ec20.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\ec20.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\string.h
 .\objects\ec20.o: ..\SOURCE\ec20_usart.h
 .\objects\ec20.o: ..\SOURCE\SYSTEM\delay\delay.h
 .\objects\ec20.o: ..\SOURCE\time.h
 .\objects\ec20.o: ..\SOURCE\init.h
+.\objects\ec20.o: ..\STM32_USB_Device_Library\Class\cdc\inc\usbd_cdc_core.h
+.\objects\ec20.o: ../STM32_USB_Device_Library/Core/inc/usbd_ioreq.h
+.\objects\ec20.o: ../STM32_USB_Device_Library/Core/inc/usbd_def.h
+.\objects\ec20.o: ..\SOURCE\USB\usbd_conf.h
+.\objects\ec20.o: ..\SOURCE\USB\usb_conf.h
+.\objects\ec20.o: ../STM32_USB_Device_Library/Core/inc/usbd_core.h
+.\objects\ec20.o: ..\STM32_USB_OTG_Driver\inc\usb_dcd.h
+.\objects\ec20.o: ..\STM32_USB_OTG_Driver\inc\usb_core.h
+.\objects\ec20.o: ..\STM32_USB_OTG_Driver\inc\usb_regs.h
+.\objects\ec20.o: ..\STM32_USB_OTG_Driver\inc\usb_defines.h
+.\objects\ec20.o: ..\SOURCE\USB\usbd_usr.h
+.\objects\ec20.o: ..\SOURCE\USB\usbd_desc.h
+.\objects\ec20.o: ../STM32_USB_Device_Library/Core/inc/usbd_req.h

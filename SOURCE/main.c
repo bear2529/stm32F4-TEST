@@ -14,6 +14,7 @@
 #include "init.h"
 
 
+
 /* Define Golbal variable  in const -------------------------------------*/
 //版本号
 const u32 Version = 0x0100;	//V1.00
@@ -32,6 +33,7 @@ const u32 Version = 0x0100;	//V1.00
 
 
 
+
 int main(void)
 { 
 	
@@ -44,7 +46,9 @@ int main(void)
 	__disable_irq() ; 
 	delay_ms(200);
 	__enable_irq() ; 
-    	
+	
+	
+   
 	//创建开始任务
     xTaskCreate((TaskFunction_t )start_task,            //任务函数
                 (const char*    )"start_task",          //任务名称

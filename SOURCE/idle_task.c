@@ -174,6 +174,7 @@ void idle_loop(void)
 	led_bat_control(lb_flicker);
 	usart3_SendStr("idle task run...\r\n");
 	
+	
 	while(1)
 	{
 		if(adcTime.flag == true)

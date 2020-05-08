@@ -1,10 +1,10 @@
 .\objects\time.o: ..\SOURCE\time.c
-.\objects\time.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\time.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\time.o: ..\SOURCE\stm32f4xx_conf.h
 .\objects\time.o: ..\FWLIB\inc\stm32f4xx_adc.h
 .\objects\time.o: ..\SOURCE\stm32f4xx.h
 .\objects\time.o: ..\CORE\core_cm4.h
-.\objects\time.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\time.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\time.o: ..\CORE\core_cmInstr.h
 .\objects\time.o: ..\CORE\core_cmFunc.h
 .\objects\time.o: ..\CORE\core_cm4_simd.h

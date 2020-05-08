@@ -2,7 +2,7 @@
 .\objects\init.o: ..\FWLIB\inc\stm32f4xx_gpio.h
 .\objects\init.o: ..\SOURCE\stm32f4xx.h
 .\objects\init.o: ..\CORE\core_cm4.h
-.\objects\init.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\init.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\init.o: ..\CORE\core_cmInstr.h
 .\objects\init.o: ..\CORE\core_cmFunc.h
 .\objects\init.o: ..\CORE\core_cm4_simd.h

@@ -2,7 +2,7 @@
 .\objects\stm32f4xx_exti.o: ..\FWLIB\inc\stm32f4xx_exti.h
 .\objects\stm32f4xx_exti.o: ..\SOURCE\stm32f4xx.h
 .\objects\stm32f4xx_exti.o: ..\CORE\core_cm4.h
-.\objects\stm32f4xx_exti.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\stm32f4xx_exti.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\stm32f4xx_exti.o: ..\CORE\core_cmInstr.h
 .\objects\stm32f4xx_exti.o: ..\CORE\core_cmFunc.h
 .\objects\stm32f4xx_exti.o: ..\CORE\core_cm4_simd.h

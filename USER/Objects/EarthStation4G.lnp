@@ -1,4 +1,4 @@
---cpu=Cortex-M4.fp
+--cpu=Cortex-M4.fp.sp
 ".\objects\startup_stm32f40_41xxx.o"
 ".\objects\misc.o"
 ".\objects\stm32f4xx_adc.o"
@@ -34,11 +34,22 @@
 ".\objects\ec20_usart.o"
 ".\objects\time.o"
 ".\objects\idle_task.o"
+".\objects\usb_bsp.o"
+".\objects\usbd_desc.o"
+".\objects\usbd_usr.o"
+".\objects\usbd_cdc_vcp.o"
 ".\objects\delay.o"
 ".\objects\sys.o"
 ".\objects\port.o"
 ".\objects\heap_4.o"
+".\objects\usbd_core.o"
+".\objects\usbd_ioreq.o"
+".\objects\usbd_req.o"
+".\objects\usbd_cdc_core.o"
+".\objects\usb_core.o"
+".\objects\usb_dcd.o"
+".\objects\usb_dcd_int.o"
 --library_type=microlib --strict --scatter ".\Objects\EarthStation4G.sct"
---summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\Listings\EarthStation4G.map" -o .\Objects\EarthStation4G.axf

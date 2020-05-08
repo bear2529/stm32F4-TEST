@@ -1,10 +1,10 @@
 .\objects\idle_task.o: ..\SOURCE\idle_task.c
-.\objects\idle_task.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\idle_task.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\idle_task.o: ..\SOURCE\stm32f4xx_conf.h
 .\objects\idle_task.o: ..\FWLIB\inc\stm32f4xx_adc.h
 .\objects\idle_task.o: ..\SOURCE\stm32f4xx.h
 .\objects\idle_task.o: ..\CORE\core_cm4.h
-.\objects\idle_task.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\idle_task.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\idle_task.o: ..\CORE\core_cmInstr.h
 .\objects\idle_task.o: ..\CORE\core_cmFunc.h
 .\objects\idle_task.o: ..\CORE\core_cm4_simd.h
@@ -40,7 +40,7 @@
 .\objects\idle_task.o: ..\SOURCE\init.h
 .\objects\idle_task.o: ..\SOURCE\time.h
 .\objects\idle_task.o: ..\Middlewares\FreeRTOS\include\FreeRTOS.h
-.\objects\idle_task.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\idle_task.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\idle_task.o: ..\Middlewares\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\idle_task.o: ..\SOURCE\usart.h
 .\objects\idle_task.o: ..\Middlewares\FreeRTOS\include\projdefs.h

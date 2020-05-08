@@ -1,9 +1,9 @@
 .\objects\tasks.o: ..\Middlewares\FreeRTOS\tasks.c
-.\objects\tasks.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\tasks.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\tasks.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\tasks.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\string.h
 .\objects\tasks.o: ..\Middlewares\FreeRTOS\include\FreeRTOS.h
-.\objects\tasks.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\tasks.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\tasks.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\tasks.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\tasks.o: ..\Middlewares\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\tasks.o: ..\SOURCE\SYSTEM\sys\sys.h
 .\objects\tasks.o: ..\SOURCE\stm32f4xx.h
@@ -41,7 +41,7 @@
 .\objects\tasks.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 .\objects\tasks.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 .\objects\tasks.o: ..\SOURCE\usart.h
-.\objects\tasks.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\tasks.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\tasks.o: ..\SOURCE\type.h
 .\objects\tasks.o: ..\Middlewares\FreeRTOS\include\projdefs.h
 .\objects\tasks.o: ..\Middlewares\FreeRTOS\include\portable.h

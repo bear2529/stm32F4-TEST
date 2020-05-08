@@ -1,9 +1,9 @@
 .\objects\queue.o: ..\Middlewares\FreeRTOS\queue.c
-.\objects\queue.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\queue.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\queue.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\queue.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\string.h
 .\objects\queue.o: ..\Middlewares\FreeRTOS\include\FreeRTOS.h
-.\objects\queue.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\queue.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\queue.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\queue.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\queue.o: ..\Middlewares\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\queue.o: ..\SOURCE\SYSTEM\sys\sys.h
 .\objects\queue.o: ..\SOURCE\stm32f4xx.h
@@ -41,7 +41,7 @@
 .\objects\queue.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 .\objects\queue.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 .\objects\queue.o: ..\SOURCE\usart.h
-.\objects\queue.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\queue.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\queue.o: ..\SOURCE\type.h
 .\objects\queue.o: ..\Middlewares\FreeRTOS\include\projdefs.h
 .\objects\queue.o: ..\Middlewares\FreeRTOS\include\portable.h

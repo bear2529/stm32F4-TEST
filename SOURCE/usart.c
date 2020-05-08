@@ -24,6 +24,7 @@
 #include "init.h"
 
 
+
 /* Define    -----------------------------------------------------------------*/
 
 
@@ -602,6 +603,8 @@ void debug_usart(void)
 u32 up_count = 0,down_count = 0;
 u8 tmpcount[100];
 
+
+
 void transparent_loop(void)
 {
 	usart3_init(115200);
@@ -612,6 +615,8 @@ void transparent_loop(void)
 
 	//EC20_POWERON;
 	usart3_SendStr("usart task run...\r\n");		
+	
+	
 	
 	while(1)
 	{

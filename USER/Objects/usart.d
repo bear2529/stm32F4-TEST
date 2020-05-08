@@ -2,7 +2,7 @@
 .\objects\usart.o: ..\SOURCE\SYSTEM\sys\sys.h
 .\objects\usart.o: ..\SOURCE\stm32f4xx.h
 .\objects\usart.o: ..\CORE\core_cm4.h
-.\objects\usart.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\usart.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\usart.o: ..\CORE\core_cmInstr.h
 .\objects\usart.o: ..\CORE\core_cmFunc.h
 .\objects\usart.o: ..\CORE\core_cm4_simd.h
@@ -36,10 +36,10 @@
 .\objects\usart.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 .\objects\usart.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 .\objects\usart.o: ..\SOURCE\usart.h
-.\objects\usart.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\usart.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\usart.o: ..\SOURCE\type.h
 .\objects\usart.o: ..\Middlewares\FreeRTOS\include\FreeRTOS.h
-.\objects\usart.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\usart.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\usart.o: ..\Middlewares\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\usart.o: ..\Middlewares\FreeRTOS\include\projdefs.h
 .\objects\usart.o: ..\Middlewares\FreeRTOS\include\portable.h
@@ -48,8 +48,8 @@
 .\objects\usart.o: ..\Middlewares\FreeRTOS\include\mpu_wrappers.h
 .\objects\usart.o: ..\Middlewares\FreeRTOS\include\task.h
 .\objects\usart.o: ..\Middlewares\FreeRTOS\include\list.h
-.\objects\usart.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\usart.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\string.h
 .\objects\usart.o: ..\SOURCE\SYSTEM\delay\delay.h
-.\objects\usart.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\usart.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\usart.o: ..\SOURCE\ec20.h
 .\objects\usart.o: ..\SOURCE\init.h

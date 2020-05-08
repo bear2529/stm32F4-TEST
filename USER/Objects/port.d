@@ -1,7 +1,7 @@
 .\objects\port.o: ..\Middlewares\FreeRTOS\portable\RVDS\ARM_CM4F\port.c
 .\objects\port.o: ..\Middlewares\FreeRTOS\include\FreeRTOS.h
-.\objects\port.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\port.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\port.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\port.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\port.o: ..\Middlewares\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\port.o: ..\SOURCE\SYSTEM\sys\sys.h
 .\objects\port.o: ..\SOURCE\stm32f4xx.h
@@ -39,7 +39,7 @@
 .\objects\port.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 .\objects\port.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 .\objects\port.o: ..\SOURCE\usart.h
-.\objects\port.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\port.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\port.o: ..\SOURCE\type.h
 .\objects\port.o: ..\Middlewares\FreeRTOS\include\projdefs.h
 .\objects\port.o: ..\Middlewares\FreeRTOS\include\portable.h

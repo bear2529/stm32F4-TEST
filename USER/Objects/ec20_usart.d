@@ -2,7 +2,7 @@
 .\objects\ec20_usart.o: ..\SOURCE\SYSTEM\sys\sys.h
 .\objects\ec20_usart.o: ..\SOURCE\stm32f4xx.h
 .\objects\ec20_usart.o: ..\CORE\core_cm4.h
-.\objects\ec20_usart.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ec20_usart.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\ec20_usart.o: ..\CORE\core_cmInstr.h
 .\objects\ec20_usart.o: ..\CORE\core_cmFunc.h
 .\objects\ec20_usart.o: ..\CORE\core_cm4_simd.h
@@ -36,9 +36,9 @@
 .\objects\ec20_usart.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 .\objects\ec20_usart.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 .\objects\ec20_usart.o: ..\SOURCE\usart.h
-.\objects\ec20_usart.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\ec20_usart.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\ec20_usart.o: ..\SOURCE\type.h
-.\objects\ec20_usart.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\ec20_usart.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\string.h
 .\objects\ec20_usart.o: ..\SOURCE\SYSTEM\delay\delay.h
-.\objects\ec20_usart.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\ec20_usart.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\ec20_usart.o: ..\SOURCE\ec20_usart.h

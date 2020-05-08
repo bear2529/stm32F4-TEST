@@ -1,7 +1,7 @@
 .\objects\rtos.o: ..\SOURCE\rtos.c
 .\objects\rtos.o: ..\Middlewares\FreeRTOS\include\FreeRTOS.h
-.\objects\rtos.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\rtos.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\rtos.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\rtos.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\rtos.o: ..\Middlewares\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\rtos.o: ..\SOURCE\SYSTEM\sys\sys.h
 .\objects\rtos.o: ..\SOURCE\stm32f4xx.h
@@ -39,7 +39,7 @@
 .\objects\rtos.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 .\objects\rtos.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 .\objects\rtos.o: ..\SOURCE\usart.h
-.\objects\rtos.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\rtos.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\rtos.o: ..\SOURCE\type.h
 .\objects\rtos.o: ..\Middlewares\FreeRTOS\include\projdefs.h
 .\objects\rtos.o: ..\Middlewares\FreeRTOS\include\portable.h

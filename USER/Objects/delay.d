@@ -3,7 +3,7 @@
 .\objects\delay.o: ..\SOURCE\SYSTEM\sys\sys.h
 .\objects\delay.o: ..\SOURCE\stm32f4xx.h
 .\objects\delay.o: ..\CORE\core_cm4.h
-.\objects\delay.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\delay.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\delay.o: ..\CORE\core_cmInstr.h
 .\objects\delay.o: ..\CORE\core_cmFunc.h
 .\objects\delay.o: ..\CORE\core_cm4_simd.h
@@ -37,10 +37,10 @@
 .\objects\delay.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 .\objects\delay.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 .\objects\delay.o: ..\Middlewares\FreeRTOS\include\FreeRTOS.h
-.\objects\delay.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\delay.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\delay.o: ..\Middlewares\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\delay.o: ..\SOURCE\usart.h
-.\objects\delay.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\delay.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\delay.o: ..\SOURCE\type.h
 .\objects\delay.o: ..\Middlewares\FreeRTOS\include\projdefs.h
 .\objects\delay.o: ..\Middlewares\FreeRTOS\include\portable.h

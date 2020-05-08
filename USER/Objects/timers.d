@@ -1,8 +1,8 @@
 .\objects\timers.o: ..\Middlewares\FreeRTOS\timers.c
-.\objects\timers.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\timers.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\timers.o: ..\Middlewares\FreeRTOS\include\FreeRTOS.h
-.\objects\timers.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\timers.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\timers.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\timers.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\timers.o: ..\Middlewares\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\timers.o: ..\SOURCE\SYSTEM\sys\sys.h
 .\objects\timers.o: ..\SOURCE\stm32f4xx.h
@@ -40,7 +40,7 @@
 .\objects\timers.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 .\objects\timers.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 .\objects\timers.o: ..\SOURCE\usart.h
-.\objects\timers.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\timers.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\timers.o: ..\SOURCE\type.h
 .\objects\timers.o: ..\Middlewares\FreeRTOS\include\projdefs.h
 .\objects\timers.o: ..\Middlewares\FreeRTOS\include\portable.h

@@ -1,7 +1,7 @@
 .\objects\croutine.o: ..\Middlewares\FreeRTOS\croutine.c
 .\objects\croutine.o: ..\Middlewares\FreeRTOS\include\FreeRTOS.h
-.\objects\croutine.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\croutine.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\croutine.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\croutine.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\croutine.o: ..\Middlewares\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\croutine.o: ..\SOURCE\SYSTEM\sys\sys.h
 .\objects\croutine.o: ..\SOURCE\stm32f4xx.h
@@ -39,7 +39,7 @@
 .\objects\croutine.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 .\objects\croutine.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 .\objects\croutine.o: ..\SOURCE\usart.h
-.\objects\croutine.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\croutine.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\croutine.o: ..\SOURCE\type.h
 .\objects\croutine.o: ..\Middlewares\FreeRTOS\include\projdefs.h
 .\objects\croutine.o: ..\Middlewares\FreeRTOS\include\portable.h

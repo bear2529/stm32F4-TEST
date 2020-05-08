@@ -1,8 +1,8 @@
 .\objects\heap_4.o: ..\Middlewares\FreeRTOS\portable\MemMang\heap_4.c
-.\objects\heap_4.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\heap_4.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\heap_4.o: ..\Middlewares\FreeRTOS\include\FreeRTOS.h
-.\objects\heap_4.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\heap_4.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\heap_4.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\heap_4.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\heap_4.o: ..\Middlewares\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\heap_4.o: ..\SOURCE\SYSTEM\sys\sys.h
 .\objects\heap_4.o: ..\SOURCE\stm32f4xx.h
@@ -40,7 +40,7 @@
 .\objects\heap_4.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 .\objects\heap_4.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 .\objects\heap_4.o: ..\SOURCE\usart.h
-.\objects\heap_4.o: C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\heap_4.o: C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\heap_4.o: ..\SOURCE\type.h
 .\objects\heap_4.o: ..\Middlewares\FreeRTOS\include\projdefs.h
 .\objects\heap_4.o: ..\Middlewares\FreeRTOS\include\portable.h

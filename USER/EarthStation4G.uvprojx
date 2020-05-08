@@ -10,7 +10,8 @@
       <TargetName>GTS2-TEST-01</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>5060422::V5.06 update 4 (build 422)::ARMCC</pCCUsed>
+      <pCCUsed>5060750::V5.06 update 6 (build 750)::ARMCC</pCCUsed>
+      <uAC6>0</uAC6>
       <TargetOption>
         <TargetCommonOption>
           <Device>STM32F407VG</Device>
@@ -183,6 +184,7 @@
             <hadXRAM>0</hadXRAM>
             <uocXRam>0</uocXRam>
             <RvdsVP>2</RvdsVP>
+            <RvdsMve>0</RvdsMve>
             <hadIRAM2>1</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
@@ -323,6 +325,7 @@
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
             <uC99>1</uC99>
+            <uGnu>0</uGnu>
             <useXO>0</useXO>
             <v6Lang>1</v6Lang>
             <v6LangP>1</v6LangP>
@@ -333,9 +336,9 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>STM32F40_41xxx,USE_STDPERIPH_DRIVER</Define>
+              <Define>STM32F40_41xxx,USE_STDPERIPH_DRIVER,USE_USB_OTG_FS ,USE_EMBEDDED_PHY</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CORE;..\FWLIB\inc;..\FWLIB\src;..\SOURCE;..\SOURCE\SYSTEM;..\SOURCE\SYSTEM\delay;..\SOURCE\SYSTEM\sys;..\Middlewares\FreeRTOS;..\Middlewares\FreeRTOS\include;..\Middlewares\FreeRTOS\portable;..\Middlewares\FreeRTOS\portable\RVDS\ARM_CM4F</IncludePath>
+              <IncludePath>..\CORE;..\FWLIB\inc;..\FWLIB\src;..\SOURCE;..\SOURCE\SYSTEM;..\SOURCE\SYSTEM\delay;..\SOURCE\SYSTEM\sys;..\Middlewares\FreeRTOS;..\Middlewares\FreeRTOS\include;..\Middlewares\FreeRTOS\portable;..\Middlewares\FreeRTOS\portable\RVDS\ARM_CM4F;..\STM32_USB_OTG_Driver\inc;../STM32_USB_Device_Library/Core/inc;..\STM32_USB_Device_Library\Class\cdc\inc;..\SOURCE\USB</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -632,6 +635,31 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>USB_User</GroupName>
+          <Files>
+            <File>
+              <FileName>usb_bsp.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SOURCE\USB\usb_bsp.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbd_desc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SOURCE\USB\usbd_desc.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbd_usr.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SOURCE\USB\usbd_usr.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbd_cdc_vcp.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SOURCE\USB\usbd_cdc_vcp.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>FatFS</GroupName>
         </Group>
         <Group>
@@ -661,6 +689,51 @@
               <FileName>heap_4.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Middlewares\FreeRTOS\portable\MemMang\heap_4.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>USB_Device</GroupName>
+          <Files>
+            <File>
+              <FileName>usbd_core.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\STM32_USB_Device_Library\Core\src\usbd_core.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbd_ioreq.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\STM32_USB_Device_Library\Core\src\usbd_ioreq.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbd_req.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\STM32_USB_Device_Library\Core\src\usbd_req.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbd_cdc_core.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\STM32_USB_Device_Library\Class\cdc\src\usbd_cdc_core.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>USB_OTG</GroupName>
+          <Files>
+            <File>
+              <FileName>usb_core.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\STM32_USB_OTG_Driver\src\usb_core.c</FilePath>
+            </File>
+            <File>
+              <FileName>usb_dcd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\STM32_USB_OTG_Driver\src\usb_dcd.c</FilePath>
+            </File>
+            <File>
+              <FileName>usb_dcd_int.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\STM32_USB_OTG_Driver\src\usb_dcd_int.c</FilePath>
             </File>
           </Files>
         </Group>

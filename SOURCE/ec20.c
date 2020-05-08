@@ -21,6 +21,11 @@
 #include "time.h"
 #include "init.h"
 
+#include "usbd_cdc_core.h"
+#include "usbd_usr.h"
+#include "usb_conf.h"
+#include "usbd_desc.h"
+
 /* Define    -----------------------------------------------------------------*/
 
 
@@ -695,6 +700,9 @@ void EC20_PackSend_Data(u8 packsn,u8 direction, u8* data, u16 dataLen)
 * author		 : WangD
 *******************************************************************************/
 int inValue = 0;
+
+__ALIGN_BEGIN USB_OTG_CORE_HANDLE USB_OTG_dev __ALIGN_END;
+
 void ec20_loop(void)
 {
 	char *STR_Index;
@@ -708,11 +716,10 @@ void ec20_loop(void)
 	//portDISABLE_INTERRUPTS();	//Õ£÷π»ŒŒÒ«–ªª
 	usart3_SendStr("ec20 START...\r\n");
 	
-	printf("ITM test\r\n");
-	printf("input value ...\r\n");
-	//scanf("%d",&inValue);
-	printf("value = %d\r\n",inValue);
-	printf("ITM test END\r\n");
+	USBD_Init(&USB_OTG_dev,USB_OTG_FS_CORE_ID,&USR_desc, &USBD_CDC_cb, &USR_cb);
+	
+	printf("USBD_Init start...\r\n");
+	
 	
 	while(1)
 	{
