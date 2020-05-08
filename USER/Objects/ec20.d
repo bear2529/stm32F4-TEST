@@ -68,3 +68,4 @@
 .\objects\ec20.o: ..\SOURCE\USB\usbd_usr.h
 .\objects\ec20.o: ..\SOURCE\USB\usbd_desc.h
 .\objects\ec20.o: ../STM32_USB_Device_Library/Core/inc/usbd_req.h
+.\objects\ec20.o: ..\SOURCE\USB\usbd_cdc_vcp.h

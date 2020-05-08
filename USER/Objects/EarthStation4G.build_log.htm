@@ -28,23 +28,25 @@ Project File Date:  05/08/2020
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Program Files (x86)\Keil_v529\ARM\ARMCC\Bin'
 Build target 'GTS2-TEST-01'
 compiling ec20.c...
-..\SOURCE\ec20.c(116): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+..\SOURCE\ec20.c(117): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
         usart3_SendStr(buf);
-..\SOURCE\ec20.c(294): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+..\SOURCE\ec20.c(295): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
                 usart3_SendStr((u8 *)ser_p);
-..\SOURCE\ec20.c(346): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+..\SOURCE\ec20.c(347): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
                 usart3_SendStr((u8 *)ser_p);
-..\SOURCE\ec20.c(421): warning:  #177-D: variable "crc1"  was declared but never referenced
+..\SOURCE\ec20.c(422): warning:  #177-D: variable "crc1"  was declared but never referenced
         u8 asc1 = 0,crc1,crc2;
-..\SOURCE\ec20.c(421): warning:  #177-D: variable "crc2"  was declared but never referenced
+..\SOURCE\ec20.c(422): warning:  #177-D: variable "crc2"  was declared but never referenced
         u8 asc1 = 0,crc1,crc2;
-..\SOURCE\ec20.c(730): warning:  #111-D: statement is unreachable
+..\SOURCE\ec20.c(732): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                                        printf(vcp_rx_buf);
+..\SOURCE\ec20.c(738): warning:  #111-D: statement is unreachable
         printf("ATE0\r\n");
-..\SOURCE\ec20.c: 6 warnings, 0 errors
+..\SOURCE\ec20.c: 7 warnings, 0 errors
 linking...
-Program Size: Code=34436 RO-data=632 RW-data=588 ZI-data=59396  
+Program Size: Code=37208 RO-data=632 RW-data=592 ZI-data=60416  
 FromELF: creating hex file...
-".\Objects\EarthStation4G.axf" - 0 Error(s), 6 Warning(s).
+".\Objects\EarthStation4G.axf" - 0 Error(s), 7 Warning(s).
 
 <h2>Software Packages used:</h2>
 

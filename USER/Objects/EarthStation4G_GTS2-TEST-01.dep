@@ -1035,7 +1035,7 @@ I (..\SOURCE\type.h)(0x5EB3C413)
 I (..\SOURCE\SYSTEM\delay\delay.h)(0x5EB3C413)
 I (..\SOURCE\ec20_usart.h)(0x5EB3C413)
 I (..\SOURCE\time.h)(0x5EB3C413)
-I (..\STM32_USB_Device_Library\Class\cdc\inc\usbd_cdc_core.h)(0x5B8F7E62)
+I (..\STM32_USB_Device_Library\Class\cdc\inc\usbd_cdc_core.h)(0x5EB4D13B)
 I (../STM32_USB_Device_Library/Core/inc/usbd_ioreq.h)(0x5B8F7E62)
 I (../STM32_USB_Device_Library/Core/inc/usbd_def.h)(0x5B8F7E62)
 I (..\SOURCE\USB\usbd_conf.h)(0x5B8F7C44)
@@ -1138,7 +1138,7 @@ F (..\SOURCE\stm32f4xx_conf.h)(0x5EB3C413)()
 F (..\SOURCE\usart.h)(0x5EB3C413)()
 F (..\SOURCE\main.h)(0x5EB3C413)()
 F (..\SOURCE\ec20.h)(0x5EB3C413)()
-F (..\SOURCE\ec20.c)(0x5EB4C772)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O2 --apcs=interwork -I ..\CORE -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\SOURCE -I ..\SOURCE\SYSTEM -I ..\SOURCE\SYSTEM\delay -I ..\SOURCE\SYSTEM\sys -I ..\Middlewares\FreeRTOS -I ..\Middlewares\FreeRTOS\include -I ..\Middlewares\FreeRTOS\portable -I ..\Middlewares\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\STM32_USB_OTG_Driver\inc -I ../STM32_USB_Device_Library/Core/inc -I ..\STM32_USB_Device_Library\Class\cdc\inc -I ..\SOURCE\USB-I.\RTE\_GTS2-TEST-01-I"C:\Program Files (x86)\Keil_v529\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"C:\Program Files (x86)\Keil_v529\ARM\CMSIS\Include"-I"C:\Program Files (x86)\Keil_v529\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Device\Include"-D__UVISION_VERSION="529" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_EMBEDDED_PHY-o .\objects\ec20.o --omf_browse .\objects\ec20.crf --depend .\objects\ec20.d)
+F (..\SOURCE\ec20.c)(0x5EB4FEE2)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O2 --apcs=interwork -I ..\CORE -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\SOURCE -I ..\SOURCE\SYSTEM -I ..\SOURCE\SYSTEM\delay -I ..\SOURCE\SYSTEM\sys -I ..\Middlewares\FreeRTOS -I ..\Middlewares\FreeRTOS\include -I ..\Middlewares\FreeRTOS\portable -I ..\Middlewares\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\STM32_USB_OTG_Driver\inc -I ../STM32_USB_Device_Library/Core/inc -I ..\STM32_USB_Device_Library\Class\cdc\inc -I ..\SOURCE\USB-I.\RTE\_GTS2-TEST-01-I"C:\Program Files (x86)\Keil_v529\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"C:\Program Files (x86)\Keil_v529\ARM\CMSIS\Include"-I"C:\Program Files (x86)\Keil_v529\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Device\Include"-D__UVISION_VERSION="529" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_EMBEDDED_PHY-o .\objects\ec20.o --omf_browse .\objects\ec20.crf --depend .\objects\ec20.d)
 I (..\Middlewares\FreeRTOS\include\FreeRTOS.h)(0x5EB3C413)
 I (C:\Program Files (x86)\Keil_v529\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
 I (C:\Program Files (x86)\Keil_v529\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
@@ -1194,7 +1194,7 @@ I (..\SOURCE\ec20_usart.h)(0x5EB3C413)
 I (..\SOURCE\SYSTEM\delay\delay.h)(0x5EB3C413)
 I (..\SOURCE\time.h)(0x5EB3C413)
 I (..\SOURCE\init.h)(0x5EB3C413)
-I (..\STM32_USB_Device_Library\Class\cdc\inc\usbd_cdc_core.h)(0x5B8F7E62)
+I (..\STM32_USB_Device_Library\Class\cdc\inc\usbd_cdc_core.h)(0x5EB4D13B)
 I (../STM32_USB_Device_Library/Core/inc/usbd_ioreq.h)(0x5B8F7E62)
 I (../STM32_USB_Device_Library/Core/inc/usbd_def.h)(0x5B8F7E62)
 I (..\SOURCE\USB\usbd_conf.h)(0x5B8F7C44)
@@ -1207,6 +1207,7 @@ I (..\STM32_USB_OTG_Driver\inc\usb_defines.h)(0x5B8F7E62)
 I (..\SOURCE\USB\usbd_usr.h)(0x5EB3CF8C)
 I (..\SOURCE\USB\usbd_desc.h)(0x5B8F7C44)
 I (../STM32_USB_Device_Library/Core/inc/usbd_req.h)(0x5B8F7E62)
+I (..\SOURCE\USB\usbd_cdc_vcp.h)(0x5EB4FDB0)
 F (..\SOURCE\rtos.c)(0x5EB3C413)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O2 --apcs=interwork -I ..\CORE -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\SOURCE -I ..\SOURCE\SYSTEM -I ..\SOURCE\SYSTEM\delay -I ..\SOURCE\SYSTEM\sys -I ..\Middlewares\FreeRTOS -I ..\Middlewares\FreeRTOS\include -I ..\Middlewares\FreeRTOS\portable -I ..\Middlewares\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\STM32_USB_OTG_Driver\inc -I ../STM32_USB_Device_Library/Core/inc -I ..\STM32_USB_Device_Library\Class\cdc\inc -I ..\SOURCE\USB-I.\RTE\_GTS2-TEST-01-I"C:\Program Files (x86)\Keil_v529\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"C:\Program Files (x86)\Keil_v529\ARM\CMSIS\Include"-I"C:\Program Files (x86)\Keil_v529\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Device\Include"-D__UVISION_VERSION="529" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_EMBEDDED_PHY-o .\objects\rtos.o --omf_browse .\objects\rtos.crf --depend .\objects\rtos.d)
 I (..\Middlewares\FreeRTOS\include\FreeRTOS.h)(0x5EB3C413)
 I (C:\Program Files (x86)\Keil_v529\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
@@ -1568,9 +1569,9 @@ I (..\STM32_USB_OTG_Driver\inc\usb_dcd.h)(0x5B8F7E62)
 I (..\STM32_USB_OTG_Driver\inc\usb_core.h)(0x5B8F7E62)
 I (..\STM32_USB_OTG_Driver\inc\usb_regs.h)(0x5B8F7E62)
 I (..\STM32_USB_OTG_Driver\inc\usb_defines.h)(0x5B8F7E62)
-F (..\SOURCE\USB\usbd_cdc_vcp.c)(0x5EB4BDED)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O2 --apcs=interwork -I ..\CORE -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\SOURCE -I ..\SOURCE\SYSTEM -I ..\SOURCE\SYSTEM\delay -I ..\SOURCE\SYSTEM\sys -I ..\Middlewares\FreeRTOS -I ..\Middlewares\FreeRTOS\include -I ..\Middlewares\FreeRTOS\portable -I ..\Middlewares\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\STM32_USB_OTG_Driver\inc -I ../STM32_USB_Device_Library/Core/inc -I ..\STM32_USB_Device_Library\Class\cdc\inc -I ..\SOURCE\USB-I.\RTE\_GTS2-TEST-01-I"C:\Program Files (x86)\Keil_v529\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"C:\Program Files (x86)\Keil_v529\ARM\CMSIS\Include"-I"C:\Program Files (x86)\Keil_v529\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Device\Include"-D__UVISION_VERSION="529" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_EMBEDDED_PHY-o .\objects\usbd_cdc_vcp.o --omf_browse .\objects\usbd_cdc_vcp.crf --depend .\objects\usbd_cdc_vcp.d)
-I (..\SOURCE\USB\usbd_cdc_vcp.h)(0x5EB4BE86)
-I (..\STM32_USB_Device_Library\Class\cdc\inc\usbd_cdc_core.h)(0x5B8F7E62)
+F (..\SOURCE\USB\usbd_cdc_vcp.c)(0x5EB4FE41)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O2 --apcs=interwork -I ..\CORE -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\SOURCE -I ..\SOURCE\SYSTEM -I ..\SOURCE\SYSTEM\delay -I ..\SOURCE\SYSTEM\sys -I ..\Middlewares\FreeRTOS -I ..\Middlewares\FreeRTOS\include -I ..\Middlewares\FreeRTOS\portable -I ..\Middlewares\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\STM32_USB_OTG_Driver\inc -I ../STM32_USB_Device_Library/Core/inc -I ..\STM32_USB_Device_Library\Class\cdc\inc -I ..\SOURCE\USB-I.\RTE\_GTS2-TEST-01-I"C:\Program Files (x86)\Keil_v529\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"C:\Program Files (x86)\Keil_v529\ARM\CMSIS\Include"-I"C:\Program Files (x86)\Keil_v529\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Device\Include"-D__UVISION_VERSION="529" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_EMBEDDED_PHY-o .\objects\usbd_cdc_vcp.o --omf_browse .\objects\usbd_cdc_vcp.crf --depend .\objects\usbd_cdc_vcp.d)
+I (..\SOURCE\USB\usbd_cdc_vcp.h)(0x5EB4FDB0)
+I (..\STM32_USB_Device_Library\Class\cdc\inc\usbd_cdc_core.h)(0x5EB4D13B)
 I (../STM32_USB_Device_Library/Core/inc/usbd_ioreq.h)(0x5B8F7E62)
 I (../STM32_USB_Device_Library/Core/inc/usbd_def.h)(0x5B8F7E62)
 I (..\SOURCE\USB\usbd_conf.h)(0x5B8F7C44)
@@ -1937,7 +1938,7 @@ I (..\STM32_USB_OTG_Driver\inc\usb_defines.h)(0x5B8F7E62)
 I (../STM32_USB_Device_Library/Core/inc/usbd_ioreq.h)(0x5B8F7E62)
 I (..\SOURCE\USB\usbd_desc.h)(0x5B8F7C44)
 F (..\STM32_USB_Device_Library\Class\cdc\src\usbd_cdc_core.c)(0x5B8F7E80)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O2 --apcs=interwork -I ..\CORE -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\SOURCE -I ..\SOURCE\SYSTEM -I ..\SOURCE\SYSTEM\delay -I ..\SOURCE\SYSTEM\sys -I ..\Middlewares\FreeRTOS -I ..\Middlewares\FreeRTOS\include -I ..\Middlewares\FreeRTOS\portable -I ..\Middlewares\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\STM32_USB_OTG_Driver\inc -I ../STM32_USB_Device_Library/Core/inc -I ..\STM32_USB_Device_Library\Class\cdc\inc -I ..\SOURCE\USB-I.\RTE\_GTS2-TEST-01-I"C:\Program Files (x86)\Keil_v529\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"C:\Program Files (x86)\Keil_v529\ARM\CMSIS\Include"-I"C:\Program Files (x86)\Keil_v529\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Device\Include"-D__UVISION_VERSION="529" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_EMBEDDED_PHY-o .\objects\usbd_cdc_core.o --omf_browse .\objects\usbd_cdc_core.crf --depend .\objects\usbd_cdc_core.d)
-I (..\STM32_USB_Device_Library\Class\cdc\inc\usbd_cdc_core.h)(0x5B8F7E62)
+I (..\STM32_USB_Device_Library\Class\cdc\inc\usbd_cdc_core.h)(0x5EB4D13B)
 I (../STM32_USB_Device_Library/Core/inc/usbd_ioreq.h)(0x5B8F7E62)
 I (../STM32_USB_Device_Library/Core/inc/usbd_def.h)(0x5B8F7E62)
 I (..\SOURCE\USB\usbd_conf.h)(0x5B8F7C44)

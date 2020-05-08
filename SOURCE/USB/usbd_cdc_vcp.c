@@ -26,6 +26,10 @@
 /* Includes ------------------------------------------------------------------ */
 #include "usbd_cdc_vcp.h"
 
+/* Public variables --------------------------------------------------------- */
+uint8_t vcp_rx_buf[1024];
+uint16_t vcp_rx_count;
+
 /* Private typedef ----------------------------------------------------------- */
 /* Private define ------------------------------------------------------------ */
 /* Private macro ------------------------------------------------------------- */
@@ -242,6 +246,8 @@ static uint16_t VCP_DataRx(uint8_t * Buf, uint32_t Len)
     while (USART_GetFlagStatus(EVAL_COM1, USART_FLAG_TXE) == RESET);
   }
 #endif
+	memcpy( &vcp_rx_buf[vcp_rx_count],Buf,Len);
+	vcp_rx_count += Len;
   return USBD_OK;
 }
 
@@ -368,5 +374,24 @@ void EVAL_COM_IRQHandler(void)
   }
 	#endif
 }
+
+
+void USB_VCP_Sendbuf(uint8_t *buf , uint16_t len)
+{
+		uint16_t i = 0;
+		if(len == 0)
+				return ;
+		for(i =0 ;i < len ;i++)
+		{
+				APP_Rx_Buffer[APP_Rx_ptr_in++] = buf[i];
+				if (APP_Rx_ptr_in == APP_RX_DATA_SIZE)
+				{
+						APP_Rx_ptr_in = 0;
+				}
+		}
+  
+}
+
+
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

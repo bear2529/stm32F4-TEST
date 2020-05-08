@@ -25,6 +25,7 @@
 #include "usbd_usr.h"
 #include "usb_conf.h"
 #include "usbd_desc.h"
+#include "usbd_cdc_vcp.h"
 
 /* Define    -----------------------------------------------------------------*/
 
@@ -723,7 +724,14 @@ void ec20_loop(void)
 	
 	while(1)
 	{
-		
+			//USB_VCP_Sendbuf("123" , 3);
+			//delay_ms(1500);
+			if(vcp_rx_count != 0)
+			{
+					vcp_rx_buf[vcp_rx_count] = 0;
+					printf(vcp_rx_buf);
+					vcp_rx_count = 0;
+			}
 	}
 	/////这一段是控制EC20的波特率到230400最高频，用户可以选择用或者不用,不用可以屏蔽掉
 	#if 1

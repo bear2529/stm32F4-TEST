@@ -58,8 +58,11 @@ typedef struct
 
 /* Exported macro ------------------------------------------------------------*/
 /* Exported functions ------------------------------------------------------- */
-void EVAL_COM_IRQHandler(void);
+extern uint8_t vcp_rx_buf[];
+extern uint16_t vcp_rx_count;
 
+void EVAL_COM_IRQHandler(void);
+extern void USB_VCP_Sendbuf(uint8_t *buf , uint16_t len);
 #endif /* __USBD_CDC_VCP_H */
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
